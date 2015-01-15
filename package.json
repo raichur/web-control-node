@@ -11,12 +11,12 @@
     "npm": "1.1.x"
   },
   "dependencies": {
-    "express": "^4.11.0",
-    "serialport": "^1.4.10"
+    "express": "4.11.0",
+    "serialport": "1.4.10"
   },
   "devDependencies": {
-    "express": "^4.11.0",
-    "serialport": "^1.4.10"
+    "express": "4.11.0",
+    "serialport": "1.4.10"
   },
   "repository": {
     "type": "git",
