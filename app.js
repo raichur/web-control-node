@@ -2,6 +2,7 @@ var express = require('express'),
     fs = require('fs'),
     SerialPort = require('serialport').SerialPort,
     port = '/dev/tty.usbmodem1411',
+    webport = (process.env.NODE_ENV == 'production') ? process.env.PORT : 8000,
     serial = null,
     interval = null,
     lightOn = false,
@@ -53,6 +54,6 @@ fs.stat(port, function(err, stats){
   } else {
     console.log('Successfully started');
     serial = new SerialPort(port, { baudrate: 9600 });
-    return app.listen(process.env.PORT || 8000);
+    return app.listen(webport);
   }
 });
