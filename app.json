@@ -1,0 +1,6 @@
+{
+  "name": "arduino-control",
+  "description": "Controlling an Arduino using Node",
+  "repository": "https://github.com/raichur/web-control-node",
+  "keywords": ["node", "arduino", "led", "express"]
+}

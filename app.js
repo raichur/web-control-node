@@ -53,6 +53,6 @@ fs.stat(port, function(err, stats){
   } else {
     console.log('Successfully started');
     serial = new SerialPort(port, { baudrate: 9600 });
-    return app.listen(8000);
+    return app.listen(process.env.PORT || 8000);
   }
 });
