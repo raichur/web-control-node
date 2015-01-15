@@ -2,14 +2,6 @@
   "name": "arduino-control",
   "version": "0.1.0",
   "description": "Controlling an Arduino using Node",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "engines": {
-    "node": "0.8.19",
-    "npm": "1.1.x"
-  },
   "dependencies": {
     "express": "4.11.0",
     "serialport": "1.4.10"
@@ -22,11 +14,5 @@
     "type": "git",
     "url": "https://github.com/raichur/web-control-node"
   },
-  "keywords": [
-    "node",
-    "arduino",
-    "led",
-    "express"
-  ],
   "license": "MIT"
 }
